@@ -19,7 +19,7 @@ Just a simple To-Do List
 > npx create-expo-app@latest my-app
 > ```
 
-change the dir to `my-app` and paste the files
+change the dir to `/my-app` and paste the files
 > ``` console
 > cd my-app
 > ```
@@ -30,6 +30,14 @@ You need to have android studio set up
 > ``` console
 > npx expo prebuild
 > ```
+
+now go to `/android` dir and execute the `gradle.bat` file. This will download all the required library to build the apk
+
+> ``` console
+> cd android 
+> gradlew assembleRelease
+> ```
+
 
 
 
