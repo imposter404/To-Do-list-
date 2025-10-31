@@ -19,6 +19,21 @@ Just a simple To-Do List
 > npx create-expo-app@latest my-app
 > ```
 
+change the dir to `my-app` and paste the files
+> ``` console
+> cd my-app
+> ```
+
+### build
+You need to have android studio set up
+
+> ``` console
+> npx expo prebuild
+> ```
+
+
+
+
 ---
 
 ## Run
