@@ -38,7 +38,11 @@ now go to `/android` dir and execute the `gradle.bat` file. This will download a
 > gradlew assembleRelease
 > ```
 
+your apk will be ready at
 
+```
+build/outputs/apk/release/
+```
 
 
 
